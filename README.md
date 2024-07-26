@@ -75,11 +75,13 @@ https://www.manager-go.com/gestion-de-projet/dossiers-methodes/matrice-raci
 https://attack.mitre.org/groups/G0073
 https://attack.mitre.org/groups/G1003  
 https://www.crowdstrike.com/blog/who-is-ember-bear  
-https://www.mandiant.com/resources/insights/apt-groups  
+https://www.mandiant.com/resources/insights/apt-groups 
+https://clusif.fr/wp-content/uploads/2017/03/clusif-2017-deploiement-soc_vf.pdf
+https://www.enisa.europa.eu/publications/how-to-set-up-csirt-and-soc
 
 
 
-#### Problème de démarrage de l'instructure  
+#### Problème de démarrage de l'infrastructure  
 Une fois la VM d'Elastic démarrée, vérifier que les services **elasticsearch** et **kibana** sont démarrés et fonctionnels (_sudo systemctl status elasticsearch.service_ et _sudo systemctl status kibana.service_)  
 Si une erreur est présente, vérifier le contenu des fichiers suivants :  
 pour **Elasticsearch** => /etc/elasticsearch/elasticsearch.yml   ligne _network.host:192.168.11.30_  
