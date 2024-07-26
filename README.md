@@ -3,7 +3,7 @@ Documents et ressources pour aider à la préparation du diplôme **Expert en S�
 
 
 ## /!\ ATTENTION /!\
-Les ressources proposées ici ne sont pas officielles.  
+**Les ressources proposées ici ne sont pas officielles**  
 Vous ne trouverez aucun cours ou documents appartenants directement à l'ESD CyberAcademy (droits de propriété intellectuelle)  
 Ce qui est proposé ici sont des ressources externes qui peuvent vous aider à rédiger votre mémoire et vos annexes ou encore vous entrainer avant de passer les examens des modules.  
 
@@ -129,8 +129,19 @@ Si Netstat n'est pas installé [-Debian Facile - Netstat diagnostic réseau](htt
 
 
 ## Annexe 14 - Juridique et RGPD
+[=> Accès aux ressources](https://drive.google.com/drive/folders/1H_iHcPWhDrzghiYKD_I2RCIIv5fojA07?usp=sharing)
 
+**cnil-pia base de connaissance (pdf)**  
+> Bases de connaissances sur l'analyse d'impact relative à la protection des données (PIA)  
 
+**Modele_pour_analyse_dimpact (doc)**  
+> Exemple d'analyse d'impact datant de 2022 et provenant de l'Université de Bordeaux  
+
+**PIA_example (pdf)**  
+> Exemple de rapport PIA créé puis exporté depuis l'application PIA de la CNIL  
+
+**wp248_rev.01 (pdf)**  
+> Lignes directrices concernant l'analyse d'impact relative à la protection des données (AIPD) et la manière de déterminer si le traitement est "susceptible d'engendrer un risque élevé" aux fins du RGPD
 
 
 
