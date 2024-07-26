@@ -32,10 +32,18 @@ Github : https://github.com/ESD-academy
 > _Sécurité de l'information, cybersécurité et protection de la vie privée — Conseils sur la gestion des risques liés à la sécurité de l'information_  
 > Document de référence de la norme internationale strandard, qui sert de base à l'analyse de risque, pour ensuite l'exploiter avec EBIOS (ou autre méthode)  
 
+
+#### liens  
+[- rappel rapide du PDCA (Plan-Do-Check-Act) et schema propre](https://arcancial.fr/le-pdca-plan-do-check-act-ou-appele-aussi-roue-de-deming/)  
+
+-------------
+
 ## Sujets de veille / idées
 
 - [Rapport Interpol de 2024 sur l'évaluation des cybermenaces en Afrique (FR)](https://www.interpol.int/fr/content/download/21048/file/24COM005030-AJFOC_Africa%20Cyberthreat%20Assessment%20Report_2024_complet_FR%20v3.pdf)  
 - [Rapport de WithSecure (Tim West) sur les risques cyber liés aux JO de Paris 2024 (EN)](https://www.withsecure.com/content/dam/with-secure/en/resources-library/202407_WithSecure_Olympics_Threat_Report_ENG.pdf) [FR ici](https://labs-withsecure-com.translate.goog/publications/olympics-cyber-threats-to-paris-2024?_x_tr_sl=auto&_x_tr_tl=fr&_x_tr_hl=fr&_x_tr_pto=wapp)  
+- [Eléments publics de doctrine militaire de lutte informatique offensive](https://www.defense.gouv.fr/sites/default/files/ema/El%C3%A9ments%20publics%20de%20doctrine%20militaire%20de%20lutte%20informatique%20OFFENSIVE.pdf)
+- [Lutte contre le financement du terrorisme (Dossier de presse 2015)](https://www.economie.gouv.fr/files/dpfinalluttecontrefinancementterrorisme_18mars2015.pdf)
 - 
 
 
@@ -45,11 +53,50 @@ Github : https://github.com/ESD-academy
 
 # Annexes
 
-## Annexe 1 - Compétences en test de pénétration
+## Annexe 1 - Compétences en test de pénétration  
+[=> Accès aux ressources](https://drive.google.com/drive/folders/1mIz66lMmvRdFnCd7Bi_q73Mu7aR_EA6n?usp=sharing)
 
-## Annexe 3 - Effectuer un audit
+**LFI-With-PHPInfo-Assistance** _de INSOMNIA (Brett Moore) - document de recherche_  
+> Un indice pour la primo-intrusion !  
+
+
+
+## Annexe 3 - Effectuer un audit  
+[=> Accès aux ressources](https://drive.google.com/drive/folders/1wopLiRH_bHpnbjE3WK-aZ3Fu_Xsp8UuS?usp=sharing)  
+**Guide d'hygiène de l'ANSSI** _Renforcer la sécurité de son système d'information en 42 mesures_  
+> Utile pour déterminer le plan d'action et les mesures de remédiation
+
+
 
 ## Annexe 4 - Mise en place d'un SOC
+
+#### Liens de référence utiles
+https://www.manager-go.com/gestion-de-projet/dossiers-methodes/matrice-raci  
+https://attack.mitre.org/groups/G0073
+https://attack.mitre.org/groups/G1003  
+https://www.crowdstrike.com/blog/who-is-ember-bear  
+https://www.mandiant.com/resources/insights/apt-groups  
+
+
+
+#### Problème de démarrage de l'instructure  
+Une fois la VM d'Elastic démarrée, vérifier que les services **elasticsearch** et **kibana** sont démarrés et fonctionnels (_sudo systemctl status elasticsearch.service_ et _sudo systemctl status kibana.service_)  
+Si une erreur est présente, vérifier le contenu des fichiers suivants :  
+pour **Elasticsearch** => /etc/elasticsearch/elasticsearch.yml   ligne _network.host:192.168.11.30_  
+pour **kibana** => /etc/kibana/kibana.yml    lignes _server.host:_ et _elasticsearch.hosts_  
+**Les IP doivent correspondre à l'IP de votre VM Elastic** (_sudo ip a_)  
+
+Utilisez **netstat -ntaulp | grep [kibana/elastic/other]** pour vérifier les ports ouverts. Par défaut :  
+**Elasticsearch** Port [http] **9200** _(affiche les aggrégations de nodes reçues par ELK)_  
+**Elasticsearch** Port **9300** _(utilisé pour l'échange entre les nodes et Elastic)_  
+**Kibana** Port **5601**   
+**logstash** Port **5044** _(listener pour Beats)_  
+**APM** Port **8200**  
+
+_Pour aller plus loin ..._  
+[- ELK Understand the default configuration](https://docs.bitnami.com/aws/apps/elk/get-started/understand-default-config/)  
+Si Netstat n'est pas installé [-Debian Facile - Netstat diagnostic réseau](https://debian-facile.org/doc:reseau:netstat) 
+
 
 
 ## Annexes 5,6,7 - Investigation numérique
