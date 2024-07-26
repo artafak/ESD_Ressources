@@ -76,8 +76,8 @@ https://attack.mitre.org/groups/G0073
 https://attack.mitre.org/groups/G1003  
 https://www.crowdstrike.com/blog/who-is-ember-bear  
 https://www.mandiant.com/resources/insights/apt-groups 
-https://clusif.fr/wp-content/uploads/2017/03/clusif-2017-deploiement-soc_vf.pdf
-https://www.enisa.europa.eu/publications/how-to-set-up-csirt-and-soc
+https://clusif.fr/wp-content/uploads/2017/03/clusif-2017-deploiement-soc_vf.pdf  
+https://www.enisa.europa.eu/publications/how-to-set-up-csirt-and-soc  
 
 
 
