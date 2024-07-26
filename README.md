@@ -126,6 +126,8 @@ Si Netstat n'est pas installé [-Debian Facile - Netstat diagnostic réseau](htt
 > _Sécurité de l'information, cybersécurité et protection de la vie privée — Systèmes de management de la sécurité de l'information — Exigences_   
 > --> Document de référence difficile à trouver sur Internet, surtout en Français.
 
+**ISO27001-2013-ComplianceChecklist (xls)**  
+> Liste des conformités et génération de beaux graphiques pour l'annexe  
 
 
 ## Annexe 14 - Juridique et RGPD
