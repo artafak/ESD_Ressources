@@ -1,0 +1,63 @@
+# Volatility 3 sur Debian	
+> La version de Debian utilisée est la _debian-12.6.0-amd64-netinst.iso_ téléchargeable directement sur [Debian.org](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.6.0-amd64-netinst.iso)	
+
+## Prérequis	
+- Installer [VirtualBox](https://www.virtualbox.org/wiki/Downloads)	
+- Ajouter l'[Oracle VirtualBox Extension Pack](https://www.virtualbox.org/wiki/Downloads) (optionnel)	
+- Créer une nouvelle machine virtuelle et installer [Debian](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.6.0-amd64-netinst.iso)	
+- Installer les [Additions invités de VirtualBox](https://linuxconfig.org/install-virtualbox-guest-additions-on-linux-guest)	
+
+## Installer Volatility 3 sur Debian	
+
+**Passez en _superutilisateur_ (root)**	
+on n'oublie pas de faire un `apt update`	
+
+> télécharger volatility3	
+`git clone https://github.com/volatilityfoundation/volatility3.git`	
+
+> configurer un environnement virtuel dédié	
+```	
+python3 -m venv venv	
+source venv/bin/activate	
+```	
+
+> Installer Volatility 3	
+```	
+pushd volatility3	
+cd ..	
+pip3 install -r requirements.txt	
+python3 setup.py build	
+python3 setup.py install	
+popd	
+```	
+
+> Installer une dépendance manquante	
+`pip3 install jsonschema`	
+
+## Utiliser Volatility 3	
+`root@local:~/volatility3# **python3 vol.py**`	
+Arguments :   -vvvv    (mode très verbeux, idéal pour afficher les erreurs)	
+              -f       file (fichier à analyser. _Exemple : infected/dump.raw_)	
+              _plugin_ choisir un plugin disponible. La liste s'affiche en utilisant `vol.py -h`	
+
+### Plugins Volatility 3	
+voici quelques plugins utilisables sur une image Windows	
+
+timeliner	
+windows.pslist	
+windows.cmdline	
+windows.filescan	
+windows.envars	
+windows.malfind	
+windows.privileges	
+windows.psscan	
+
+Exemple de commande : `root@local:~/volatility3# **python3 vol.py -vvvv /TPMALWARE/infected/dump.raw windows.info > /TPMALWARE/artefacts/windows.info/txt**`	
+les résultats de la commande seront envoyés dans le fichier /TPMALWARE/artefacts/windows.info.txt pour les sauvegarder et les exploiter plus tard.	
+
+
+
+
+
+
+
