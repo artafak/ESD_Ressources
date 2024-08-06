@@ -167,6 +167,8 @@ voici quelques plugins utilisables sur une image Windows
 - windows.malfind	  
 - windows.privileges	  
 - windows.psscan	  
+- ...
+  La liste complète est disponible [ici](https://github.com/artafak/ESD_Ressources/blob/main/Annexe6-7-8/Volatility%203%20-%20commandes%20et%20plugins.txt)
 
 Exemple de commande 
 ```
