@@ -8,7 +8,7 @@ Vous ne trouverez aucun cours ou documents appartenants directement à l'ESD Cyb
 Ce qui est proposé ici sont des ressources externes qui peuvent vous aider à rédiger votre mémoire et vos annexes ou encore vous entrainer avant de passer les examens des modules. 
 
 Ce github est destiné à être collaboratif. N'hésitez pas à y contribuer, pour enrichir vos connaissances, partager votre savoir et aider apprenants actuels et futurs.  
-Vous travaillez sur un projet dans le domaine cyber ? Profitez de cet espace pour obtenir de l'aide en tourvant des contributeurs et en faire sa promotion.  
+Vous travaillez sur un projet dans le domaine cyber ? Profitez de cet espace pour en faire sa promotion et obtenir de l'aide avec des contributeurs.  
 
 
 ### Liens officiels :
