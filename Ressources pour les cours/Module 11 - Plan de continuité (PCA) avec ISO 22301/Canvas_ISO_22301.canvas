@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"f7d7260ef700e064","type":"text","text":"6- Planification","x":-245,"y":-230,"width":274,"height":60,"color":"3"},
+		{"id":"8acf6ca0715df2fd","type":"text","text":"7- Supports\n","x":-245,"y":-68,"width":274,"height":50,"color":"4"},
+		{"id":"601c762cfe8aaa03","type":"text","text":"8- Fonctionnement","x":-245,"y":124,"width":274,"height":60,"color":"5"},
+		{"id":"2494906ef9067eac","type":"text","text":"**Etablissement et mise en œuvre de procédures de continuité d'activité**:\n- Structure de réponse à un incident\n- Avertissement et communication\n- PCA\n- Reprise\n- Exercice de tests","x":880,"y":73,"width":579,"height":163},
+		{"id":"db2b8c659e196dd6","type":"text","text":"PCA - ISO 22301","x":-640,"y":-73,"width":141,"height":60,"color":"#ffea00"},
+		{"id":"bd7c20b6c53adf0f","type":"text","text":"- Planification opérationnelle et maitrise\n- Analyse des impacts et appréciation du risque\n- Stratégie de continuité\n- Etablissement et mise en œuvre de procédures de continuité d'activité","x":200,"y":97,"width":525,"height":115},
+		{"id":"e62e53fca542b81f","type":"text","text":"- Actions face aux risques et opportunités\n- Objectis de continuité d'activité et plans","x":200,"y":-243,"width":525,"height":87},
+		{"id":"e14a3a5b05b0dd24","type":"text","text":"- Ressources\n- Compétences\n- Sensibilisation\n- Communication\n- Information documentée","x":200,"y":-112,"width":525,"height":139},
+		{"id":"446a747d71d7d3c0","type":"text","text":"- Supervision, mesurage, analyse et évaluation\n- Evaluation des procédure de continuité d'activité\n- Audit interne\n- Revue de direction","x":200,"y":280,"width":525,"height":100},
+		{"id":"b82842c6f011cacb","type":"text","text":"9- Evaluation des performances","x":-245,"y":302,"width":274,"height":56,"color":"6"},
+		{"id":"acd24135c52189ce","type":"text","text":"10- Amélioration","x":-245,"y":446,"width":274,"height":58,"color":"#2d05bd"},
+		{"id":"3222a556730dcf76","type":"text","text":"- Non conformité et actions correctives\n- Amélioration continue","x":200,"y":448,"width":525,"height":56},
+		{"id":"62634f50ec4c92b9","type":"text","text":"- Engagement de la Direction\n- Politique\n- Rôles, Responsabilités et Autorités","x":200,"y":-397,"width":525,"height":95},
+		{"id":"adfe8cea56380450","type":"text","text":"5- Leadership","x":-245,"y":-380,"width":274,"height":60,"color":"2"},
+		{"id":"37175015d524c720","type":"text","text":"- Contexte Organisationnel\n- Parties Prenantes et Exigences\n- Domaine d'Application du SMCA \n- Système de Management de la Continuité d'Activité\n","x":200,"y":-580,"width":525,"height":109},
+		{"id":"6947d994fd21bc30","type":"text","text":"4- Contexte de l'organisation","x":-245,"y":-556,"width":274,"height":60,"color":"#fff700"},
+		{"id":"3e6f7478348e9f2c","type":"text","text":"0-1-2-3- Généralités","x":-245,"y":-700,"width":274,"height":60,"color":"#ff0000"}
+	],
+	"edges":[
+		{"id":"90136ba129cc1504","fromNode":"db2b8c659e196dd6","fromSide":"right","toNode":"6947d994fd21bc30","toSide":"left"},
+		{"id":"ced4ddfe851352ff","fromNode":"6947d994fd21bc30","fromSide":"right","toNode":"37175015d524c720","toSide":"left"},
+		{"id":"ed06d9eeda08929e","fromNode":"db2b8c659e196dd6","fromSide":"right","toNode":"adfe8cea56380450","toSide":"left"},
+		{"id":"c93bc9ff0dbf1b10","fromNode":"adfe8cea56380450","fromSide":"right","toNode":"62634f50ec4c92b9","toSide":"left"},
+		{"id":"e793f846df58779c","fromNode":"db2b8c659e196dd6","fromSide":"right","toNode":"f7d7260ef700e064","toSide":"left"},
+		{"id":"4849f30b4b7ea3e2","fromNode":"f7d7260ef700e064","fromSide":"right","toNode":"e62e53fca542b81f","toSide":"left"},
+		{"id":"e081cabb27343970","fromNode":"db2b8c659e196dd6","fromSide":"right","toNode":"8acf6ca0715df2fd","toSide":"left"},
+		{"id":"1a7c108053df280b","fromNode":"8acf6ca0715df2fd","fromSide":"right","toNode":"e14a3a5b05b0dd24","toSide":"left"},
+		{"id":"550b726ea18d705f","fromNode":"db2b8c659e196dd6","fromSide":"right","toNode":"601c762cfe8aaa03","toSide":"left"},
+		{"id":"7f30244b5d9c2763","fromNode":"601c762cfe8aaa03","fromSide":"right","toNode":"bd7c20b6c53adf0f","toSide":"left"},
+		{"id":"cf83022c0c501811","fromNode":"bd7c20b6c53adf0f","fromSide":"right","toNode":"2494906ef9067eac","toSide":"left"},
+		{"id":"f37b77c6b9d1ee7e","fromNode":"db2b8c659e196dd6","fromSide":"right","toNode":"b82842c6f011cacb","toSide":"left"},
+		{"id":"3fc342b95c771a56","fromNode":"b82842c6f011cacb","fromSide":"right","toNode":"446a747d71d7d3c0","toSide":"left"},
+		{"id":"c2b89b1bc7b73af9","fromNode":"db2b8c659e196dd6","fromSide":"right","toNode":"acd24135c52189ce","toSide":"left"},
+		{"id":"6e1249f0a1b0d9e4","fromNode":"acd24135c52189ce","fromSide":"right","toNode":"3222a556730dcf76","toSide":"left"},
+		{"id":"b4ba32913dd3a310","fromNode":"db2b8c659e196dd6","fromSide":"right","toNode":"3e6f7478348e9f2c","toSide":"left"}
+	]
+}
