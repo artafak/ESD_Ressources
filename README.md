@@ -1,5 +1,5 @@
 # ESD_Ressources
-Documents et ressources pour aider à la préparation du master **Expert en Sécurité Digitale** de l'[ESD Cybersecurity Academy](https://esdacademy.eu)  
+Documents et ressources pour aider à la préparation du master **Expert(e) en Sécurité Digitale** de l'[ESD Cybersecurity Academy](https://esdacademy.eu)  
 ### Tout est dans le Wiki ! => [ESD_Ressources/wiki](https://github.com/artafak/ESD_Ressources/wiki)   
 
 ## /!\ ATTENTION /!\
